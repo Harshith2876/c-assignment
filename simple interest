@@ -8,7 +8,7 @@ int main ()
     scanf("%f",&R);
     printf("Enter time period in years :");
     scanf("%f",&T);
-  
-    printf("Simple Interest is %f " , P*R*T/100);
+    SI = P*R*T/100
+    printf("Simple Interest is %f " , SI);
     return 0;
 }
