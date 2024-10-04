@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main() {
+    int int-DataType;
+    float float-DataType;
+    double double-DataType;
+    char char-DataType;
+
+    // sizeof evaluates the size of a variable
+    printf("Size of int: %zu bytes\n", sizeof(int-DataType));
+    printf("Size of float: %zu bytes\n", sizeof(float-DataType));
+    printf("Size of double: %zu bytes\n", sizeof(double-DataType));
+    printf("Size of char: %zu byte\n", sizeof(char-DataType));
+    
+    return 0;
+}
