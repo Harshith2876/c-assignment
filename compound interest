@@ -8,7 +8,7 @@ int main ()
     scanf ("%f",&R);
     printf ("Enter time period in years :");
     scanf ("%f",&T);
-    CI = p * (pow(1+r/100, t) - 1)
+    CI = P * (pow(1+R/100, T) - 1);
     printf("Compound Interest is %f " ,  CI);
     return 0;
 }
