@@ -1,15 +1,15 @@
 #include<stdio.h>
 int main() {
-    int int-DataType;
-    float float-DataType;
-    double double-DataType;
-    char char-DataType;
+    int IntDataType;
+    float FloatDataType;
+    double DoubleDataType;
+    char CharDataType;
 
     
-    printf("Size of int: %u bytes", sizeof(int-DataType));
-    printf("Size of float: %u bytes", sizeof(float-DataType));
-    printf("Size of double: %u bytes", sizeof(double-DataType));
-    printf("Size of char: %u byte", sizeof(char-DataType));
+    printf("Size of int: %u bytes \n", sizeof(IntDataType));
+    printf("Size of float: %u bytes\n", sizeof(FloatDataType));
+    printf("Size of double: %u bytes\n", sizeof(DoubleDataType));
+    printf("Size of char: %u byte\n", sizeof(CharDataType));
     
     return 0;
 }
